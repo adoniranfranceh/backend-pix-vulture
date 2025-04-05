@@ -1,5 +1,4 @@
-require:
-  - rubocop-rails
+plugins:
   - rubocop-rspec
 
 Layout/ArgumentAlignment:
@@ -70,12 +69,6 @@ Metrics/MethodLength:
   Exclude:
     - spec/**/*
 
-Rails/SkipsModelValidations:
-  Enabled: false
-
-Rails/LexicallyScopedActionFilter:
-  Enabled: false
-
 RSpec/NestedGroups:
   Max: 10
 
@@ -98,9 +91,6 @@ RSpec/NoExpectationExample:
   Enabled: false
 
 RSpec/ContextWording:
-  Enabled: false
-
-Rails/TransactionExitStatement:
   Enabled: false
 
 AllCops:
