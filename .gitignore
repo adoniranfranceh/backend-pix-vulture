@@ -1,2 +1,9 @@
+# Ignore everything inside the db directory
 db/*
+
+# But keep the schema.rb file (important for database versioning)
+!db/schema.rb
+
+# Ignore environment variable files (contains sensitive data)
 .env
+
