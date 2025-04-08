@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './app/model/user'
 require './app/adapters/repositories/user_repository'
 

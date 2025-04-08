@@ -18,4 +18,6 @@ end
 
 group :development do
   gem 'byebug'
+  gem 'rubocop', require: false
+  gem 'rubocop-rspec', require: false
 end
